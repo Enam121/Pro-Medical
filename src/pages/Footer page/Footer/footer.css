@@ -1,0 +1,13 @@
+.footer-container{
+  background-color: #081229;
+  height: 500px;
+  color: aliceblue;
+  overflow-y: hidden;
+  padding: 120px 180px;
+}
+.color{
+  color: #ff7979;
+}
+.icon-container img:hover{
+cursor: pointer;
+}

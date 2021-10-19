@@ -7,15 +7,16 @@ transition: box-shadow 1s ease-in-out;
   border: 1px solid rgba(250, 194, 188, 0.979);
   border-radius: 5px;
 }
+.card div button{
+  transition: box-shadow 1s ease-in-out;
+}
+.card div button:hover{
+  box-shadow:1px 8px 100px #c3c6ca;
+  border-radius: 5px;
+ 
+}
 
 
 
 
 
-
-
-/* .btn-regular{
-  color:#c8d6e5;
-  outline: none;
-  color: rgb(90, 85, 85);
-} */

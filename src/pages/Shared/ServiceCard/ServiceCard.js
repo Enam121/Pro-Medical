@@ -12,7 +12,8 @@ const ServiceCard = ({ service }) => {
         <div class="card-body">
           <h5 class="card-title">{serviceTitle}</h5>
           <p class="card-text">{description.slice(0, 59)}...</p>
-          <button className="btn btn-light">See details</button>
+          <button className="btn btn-light">See details<img src="https://img.icons8.com/material-outlined/16/000000/plus-math--v1.png" alt="" />
+          </button>
         </div>
       </div>
 

@@ -18,8 +18,7 @@ const Home = () => {
       <div className="banner d-flex flex-column align-items-center justify-content-center ">
 
         <div className="text-light">
-          <h2>This is Home page</h2>
-          <h1>WELLCOME TO ...</h1>
+          <h1>WELLCOME TO PRO MEDICAL</h1>
         </div>
       </div>
       {/* home cards */}

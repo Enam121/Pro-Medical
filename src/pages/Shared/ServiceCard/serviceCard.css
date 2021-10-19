@@ -1,0 +1,21 @@
+.card{
+ border: 0px;
+transition: box-shadow 1s ease-in-out;
+}
+.card:hover{
+  box-shadow:1px 8px 60px #c8d6e5;
+  border: 1px solid rgba(250, 194, 188, 0.979);
+  border-radius: 5px;
+}
+
+
+
+
+
+
+
+/* .btn-regular{
+  color:#c8d6e5;
+  outline: none;
+  color: rgb(90, 85, 85);
+} */

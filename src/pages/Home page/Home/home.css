@@ -10,3 +10,8 @@
 .card-container{
   margin: 100px 170px;
 }
+.gallery-container{
+  margin: 150px 25px;
+  height: 613px;
+  overflow: hidden;
+}

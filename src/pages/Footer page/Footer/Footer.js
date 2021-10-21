@@ -34,18 +34,21 @@ const Footer = () => {
               650 Birmingham St,
               United State Of Noakhali
             </p>
-            <div className="d-flex ms-5">
-              <p> Follow us:</p>
-              <p className="text-white icon-container">
-                <img src="https://img.icons8.com/material-outlined/20/000000/facebook-circled--v2.png" alt="" className="ms-4 bg-light rounded-4" />
-                <img src="https://img.icons8.com/ios-glyphs/20/000000/twitter.png" alt="" className="ms-3 bg-light rounded-3" />
-                <img src="https://img.icons8.com/ios/20/000000/instagram-new.png" alt="" className="ms-3 bg-light rounded-3" />
-                <img src="https://img.icons8.com/ios-glyphs/20/000000/linkedin-2.png" alt="" className="ms-3 bg-light rounded-3" />
-              </p>
+            <div className="d-flex ms-5 align-items-center ">
+              <div>
+                <p className="fs-5 my-0"> Follow us:</p>
+              </div>
+              <div className="text-white icon-container">
+                <img src="https://img.icons8.com/material-outlined/16/000000/facebook-circled--v2.png" alt="" className="ms-4 bg-light rounded-1" />
+                <img src="https://img.icons8.com/ios-glyphs/16/000000/twitter.png" alt="" className="ms-3 bg-light rounded-2" />
+                <img src="https://img.icons8.com/ios/16/000000/instagram-new.png" alt="" className="ms-3 bg-light rounded-2" />
+                <img src="https://img.icons8.com/ios-glyphs/16/000000/linkedin-2.png" alt="" className="ms-3 bg-light rounded-2" />
+              </div>
             </div>
           </div>
 
         </div>
+
         <hr className="mt-5" />
         <p className="mt-5">
           Copyright © 2021 All Rights Reserved by <span className="color">ProMedical</span>

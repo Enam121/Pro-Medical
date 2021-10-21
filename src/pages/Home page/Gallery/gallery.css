@@ -1,0 +1,7 @@
+.img-anim{
+  transition: transform .8s ease-out;
+  overflow: hidden;
+}
+.img-anim:hover{
+  transform: scale(1.05);
+}

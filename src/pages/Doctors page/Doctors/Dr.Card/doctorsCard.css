@@ -1,0 +1,8 @@
+.doctor img{
+transition:transform .5s ease-out;
+overflow: hidden;
+}
+.doctor img:hover{
+  transform: scale(1.05);
+
+}

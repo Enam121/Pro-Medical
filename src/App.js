@@ -5,6 +5,7 @@ import Doctors from './pages/Doctors page/Doctors/Doctors';
 import Footer from './pages/Footer page/Footer/Footer';
 import Home from './pages/Home page/Home/Home';
 import Nav from './pages/Home page/Nav/Nav';
+import ServiceDetail from './pages/Shared/serviceDetail/serviceDetail';
 import Shop from './pages/Shop page/Shop/Shop';
 
 function App() {
@@ -20,6 +21,9 @@ function App() {
           </Route>
           <Route path="/home">
             <Home />
+          </Route>
+          <Route path="/service-card/:cardId">
+            <ServiceDetail />
           </Route>
           <Route path="/doctors">
             <Doctors />

@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Hand Sanitizer",
+    "category": "Disinfection",
+    "price": "5",
+    "img": "https://promedica.qodeinteractive.com/wp-content/uploads/2020/12/shop-img-7.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Multivitamin",
+    "category": "Medicine/pills",
+    "price": "14",
+    "img": "https://promedica.qodeinteractive.com/wp-content/uploads/2020/12/shop-img-1.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Contact Lenses",
+    "category": "Contacts/Eyesight",
+    "price": "41",
+    "img": "https://promedica.qodeinteractive.com/wp-content/uploads/2020/12/shop-img-2.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Antibiotics",
+    "category": "Medicine/Pills",
+    "price": "34",
+    "img": "https://promedica.qodeinteractive.com/wp-content/uploads/2020/12/shop-img-4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Contacs Case",
+    "category": "Contacts/Eyesigth",
+    "price": "11",
+    "img": "https://promedica.qodeinteractive.com/wp-content/uploads/2020/12/shop-img-11.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Glass Ampule",
+    "category": "Medicine/Pills",
+    "price": "20",
+    "img": "https://promedica.qodeinteractive.com/wp-content/uploads/2020/12/shop-img-12.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Probiotics",
+    "category": "Medicine/Pills",
+    "price": "18",
+    "img": "https://promedica.qodeinteractive.com/wp-content/uploads/2020/12/shop-img-10.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Medicine Combo",
+    "category": "Medicine/Pills",
+    "price": "22",
+    "img": "https://promedica.qodeinteractive.com/wp-content/uploads/2020/12/shop-img-8.jpg"
+  }
+]

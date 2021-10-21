@@ -1,6 +1,12 @@
+.card-container{
+  margin: 100px 150px;
+}
+
 .card{
  border: 0px;
 transition: box-shadow 1s ease-in-out;
+padding-left:0px;
+overflow: hidden;
 }
 .card:hover{
   box-shadow:1px 8px 60px #c8d6e5;
@@ -11,11 +17,13 @@ transition: box-shadow 1s ease-in-out;
   transition: box-shadow 1s ease-in-out;
 }
 .card div button:hover{
-  box-shadow:1px 8px 100px #c3c6ca;
+  box-shadow:1px 8px 60px rgb(156, 152, 152,.99);
   border-radius: 5px;
  
 }
-
+.text-justify{
+  text-align: justify !important;
+}
 
 
 

@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import ServiceCard from '../../Shared/ServiceCard/ServiceCard';
+import Appointment from '../Appointment/Appointment';
+import Gallery from '../Gallery/Gallery';
 import './home.css'
 
 const Home = () => {
@@ -21,15 +23,25 @@ const Home = () => {
           <h1>WELLCOME TO PRO MEDICAL</h1>
         </div>
       </div>
+
       {/* home cards */}
       <div className="card-container ">
         <div className="row gy-5">
           {
-            services.map(service => <ServiceCard service={service} />)
+            services.map(service => <ServiceCard key={service.id} service={service} />)
           }
         </div>
       </div>
 
+      {/* gallery */}
+      <div className="gallery-container">
+        <Gallery />
+      </div>
+
+      {/* appointment */}
+      <div className="ap-container my-5">
+        <Appointment />
+      </div>
     </div>
   );
 };

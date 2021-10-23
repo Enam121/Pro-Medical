@@ -36,7 +36,7 @@ const Footer = () => {
             </p>
             <div className="d-flex ms-5 align-items-center ">
               <div>
-                <p className="fs-5 my-0"> Follow us:</p>
+                <p className="fs-5 my-0"> Follow Us:</p>
               </div>
               <div className="text-white icon-container">
                 <img src="https://img.icons8.com/material-outlined/16/000000/facebook-circled--v2.png" alt="" className="ms-4 bg-light rounded-1" />

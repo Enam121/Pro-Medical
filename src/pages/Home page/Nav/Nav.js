@@ -1,7 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import useAuth from '../../../hooks/useAuth';
 
 const Nav = () => {
+
+  const { user, logOut } = useAuth();
+  console.log(user)
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light px-5 py-3">
       <div className="container-fluid">
@@ -25,7 +29,18 @@ const Nav = () => {
       </div>
 
       <div>
-        <button className="btn btn-secondary px-5">Login</button>
+        {
+          user ?
+
+            <div className=" d-flex align-items-center">
+              <img src="https://img.icons8.com/external-kiranshastry-lineal-color-kiranshastry/30/000000/external-user-interface-kiranshastry-lineal-color-kiranshastry-1.png" alt="" />
+              <span className="user-name">{user?.displayName}</span>
+              <button onClick={logOut} >Logout</button>
+            </div>
+            : <Link to="/login">
+              <button className="btn btn-secondary px-5">Login</button>
+            </Link>
+        }
       </div>
     </nav>
   );

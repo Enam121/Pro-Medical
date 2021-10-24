@@ -5,10 +5,8 @@ import { useEffect, useState } from "react";
 
 initializeAthentication()
 
-const googleProvider = new GoogleAuthProvider();
 
 const useFirebase = () => {
-
 
   const [user, setUser] = useState(null);
 
@@ -16,13 +14,14 @@ const useFirebase = () => {
 
   // sign in wiht google
   const signInUsingGoogle = () => {
+
+    const googleProvider = new GoogleAuthProvider();
     return signInWithPopup(auth, googleProvider);
 
   }
 
   //create user with email and pass
   const registerUserWithEmailAndPassword = (email, password) => {
-    console.log('from hook', email, password)
     return createUserWithEmailAndPassword(auth, email, password)
 
   }

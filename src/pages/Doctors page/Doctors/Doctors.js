@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { useState } from 'react/cjs/react.development';
+import { useState } from 'react';
 import DoctorsCard from './Dr.Card/DoctorsCard';
 
 const Doctors = () => {

@@ -8,8 +8,8 @@ const Appointment = () => {
       <div className="row g-4">
 
 
-        <div class="col-md-6">
-          <select class="form-select" aria-label="Default select example">
+        <div className="col-md-6">
+          <select className="form-select" aria-label="Default select example">
             <option selected>Select Depertment</option>
             <option value="1">Cardiac Surgery</option>
             <option value="2">Cardiology</option>
@@ -18,19 +18,18 @@ const Appointment = () => {
             <option value="5">Orthopedics</option>
           </select>
         </div>
-        <div class="col-md-6">
-          <select class="form-select" aria-label="Default select example">
+        <div className="col-md-6">
+          <select className="form-select" aria-label="Default select example">
             <option selected>Select Doctor</option>
 
           </select>
         </div>
 
-
-        <div class="col-md-6">
-          <input type="text" class="form-control" placeholder="Your Full Name" aria-label="Your Full Name" />
+        <div className="col-md-6">
+          <input type="text" className="form-control" placeholder="Your Full Name" aria-label="Your Full Name" />
         </div>
-        <div class="col-md-6">
-          <input type="text" class="form-control" placeholder="Your Phone" aria-label="Your Phone" />
+        <div className="col-md-6">
+          <input type="text" className="form-control" placeholder="Your Phone" aria-label="Your Phone" />
         </div>
 
         <div className="col-md-6">
